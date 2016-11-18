@@ -5,7 +5,7 @@ describe 'API basics' do
 
  # test 01
   it 'should find configuration information' do
-    app.config.DATA_ID.length.must_be :>, 0
+    app.config.DATA_ID1.length.must_be :>, 0
    
   end
 

@@ -12,6 +12,7 @@ gem 'weatai'
 gem 'json'
 
 group :development, :test do
+	gem 'rake'
 	gem 'pry-byebug'
 end
 

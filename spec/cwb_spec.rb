@@ -4,26 +4,6 @@ require 'yaml'
 
 describe 'CWB routes' do
 
-#......................VCR things........................
-=begin 
-  VCR.configure do |c|
-    c.cassette_library_dir = 'cassettes'
-    c.hook_into :webmock
-
-#    c.filter_sensitive_data('<KEY>') { CREDENTIALS[:key] }
-  end
-
-  before do
-    VCR.insert_cassette 'all_record', record: :new_episodes
-#    @cwb_api = CWB::CWBApi.config
-
-  end
-
-  after do
-    VCR.eject_cassette
-  end
-=end
-
   before do
     VCR.insert_cassette 'all_record', record: :new_episodes
   end

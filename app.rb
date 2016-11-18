@@ -10,8 +10,11 @@ class WeataiAPI < Sinatra::Base
   Econfig.root = settings.root
   CWB::CWBApi
     .config
-    .update(dataid: config.DATA_ID,
-            key:  config.AUTH_KEY)
+    .update(dataid1: config.DATA_ID1,
+            dataid2: config.DATA_ID2,
+            key:     config.AUTH_KEY, 
+            format:  config.FORMAT,
+            token:   config.TOKEN)
 
   API_VER = 'api/v0.1'
 
@@ -21,9 +24,9 @@ class WeataiAPI < Sinatra::Base
 
   get "/#{API_VER}/C_weather/?" do
     begin
-      weather = CWB::Weather.find(dataid: 'O-A0003-001')
+      weather = CWB::INSTANT.instant
       content_type 'application/json'
-      { instant_weather: weather.instant_weather }.to_json
+      { instant_weather: weather }.to_json
     rescue
       halt 404, "Instant weather not found"
     end
