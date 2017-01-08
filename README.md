@@ -18,6 +18,6 @@ This is a API to get instant weather information from [Central Weater Bureau Ope
 
 ## Authors
 
-* **Neil,Lee** - [Github](https://github.com/Neilxx)
-* **Andy,Chen** - [Github](https://github.com/youyotsu)
-* **Chien,Hung** - [Github](https://github.com/chiachienhung)
+* **[Neil,Lee](https://github.com/Neilxx)**
+* **[Andy,Chen](https://github.com/youyotsu)**
+* **[Chien,Hung](https://github.com/chiachienhung)**
