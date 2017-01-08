@@ -1,6 +1,5 @@
 # Weatai_API
-API to get learning resource information from Coursera, Udacity and Youtube
-This is a API to get instant weather information from [Central Weater Bureau Open Data](http://opendata.cwb.gov.tw/about) and [Environmental Protection Association Open Data](http://opendata.epa.gov.tw/). We've deployed on heroku and you can check it [Here](https://weataiapi.herokuapp.com/).
+This API is to get instant weather information from [Central Weater Bureau Open Data](http://opendata.cwb.gov.tw/about) and [Environmental Protection Association Open Data](http://opendata.epa.gov.tw/). We've deployed on heroku and you can check it [Here](https://weataiapi.herokuapp.com/).
 
 ## Routes
 
