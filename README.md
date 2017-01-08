@@ -7,7 +7,8 @@ This is a API to get instant weather information from [Central Weater Bureau Ope
 - `/` - check if API alive
 - `/v0.1/weather` - show all the instant weather and air quality information 
 - `/v0.1/weather/[:station_id]` - show a station's instant weather and air quality information(1 to 38)
-  -for examples:[station_id=3](https://weataiapi.herokuapp.com/api/v0.1/weather/3)
+  - for examples:[station_id=3](https://weataiapi.herokuapp.com/api/v0.1/weather/3)
+    - {"station":"3","stationName":"板橋","city":"新北市","township":"板橋區","temperature":"20.0","humidity":"0.72","MIN_10":"0.00","rainfall":"0.00","AirQuality":"21","Status":"良好","time":"2017-01-08T16:30:00+08:00"}
 
 
 ## Built With
